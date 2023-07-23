@@ -1,0 +1,5 @@
+1) Program to store the elements in 1-D array and perform the operations like searching,
+sorting, reversing the elements.
+
+CSL301.1
+To implement basic data structures such as arrays, linked lists, stacks and queues.
