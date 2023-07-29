@@ -27,6 +27,11 @@ void sortArray(int arr[], int n) {
             }
         }
     }
+    printf("Array: ");
+    for (int i = 0; i < n; i++) {
+        printf("%d ", arr[i]);
+    }
+    printf("\n");
 }
 
 void reverseArray(int arr[], int n) {
@@ -38,9 +43,6 @@ void reverseArray(int arr[], int n) {
         start++;
         end--;
     }
-}
-
-void displayArray(int arr[], int n) {
     printf("Array: ");
     for (int i = 0; i < n; i++) {
         printf("%d ", arr[i]);
@@ -62,10 +64,9 @@ int main() {
         printf("1. Search an element\n");
         printf("2. Sort the array\n");
         printf("3. Reverse the array\n");
-        printf("4. Display the array\n");
-        printf("5. Exit\n");
+        printf("4. Exit\n");
 
-        printf("Enter your choice (1/2/3/4/5): ");
+        printf("Enter your choice (1/2/3/4): ");
         scanf("%d", &choice);
 
         switch (choice) {
@@ -91,15 +92,11 @@ int main() {
                 break;
 
             case 4:
-                displayArray(arr, n);
-                break;
-
-            case 5:
                 printf("Exiting the program.\n");
                 return 0;
 
             default:
-                printf("Invalid choice. Please enter a valid option (1/2/3/4/5).\n");
+                printf("Invalid choice. Please enter a valid option (1/2/3/4).\n");
         }
     }
 
