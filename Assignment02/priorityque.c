@@ -70,7 +70,7 @@ Element extract_max(PriorityQueue *pq) {
     pq->elements[0] = pq->elements[pq->size - 1];
     pq->size--;
 
-    //max_heapify(pq, 0);
+    max_heapify(pq, 0);
 
     return max_element;
 }
