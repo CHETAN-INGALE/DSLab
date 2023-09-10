@@ -1,0 +1,4 @@
+2) Program to create a singly linked list and perform the operations like insertion, deletion, display & count the nodes.
+
+CSL301.1
+To implement basic data structures such as arrays, linked lists, stacks and queues.
